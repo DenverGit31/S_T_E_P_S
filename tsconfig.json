@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/navigations/RootNavigator.jsx",
+    "app/navigations/index.jsx",
+    "app/navigations/HomeNavigator.jsx",
+    "app/navigations/StudentScreen.jsx",
+    "app/navigations/AuthNavigator.jsx",
+    "app/screens/Student/HistoryScreen.jsx",
+    "app/screens/Home/HomeScreen.jsx",
+    "app/screens/Setting/SettingsScreen.jsx",
+    "app/screens/Setting/ProfileScreen.jsx",
+    "app/screens/Setting/EditProfileScreen.jsx",
+    "app/screens/Account/RegisterScreen.jsx",
+    "app/screens/Account/LoginScreen.js"
+  ]
+}
